@@ -23,6 +23,7 @@ struct Task {
         self.note = note
         self.dueDate = dueDate
     }
+    
 
     // A boolean to determine if the task has been completed. Defaults to `false`
     var isComplete: Bool = false {
