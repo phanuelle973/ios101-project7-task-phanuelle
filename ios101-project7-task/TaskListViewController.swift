@@ -17,6 +17,9 @@ class TaskListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Tasks"
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+
 
         // Hide top cell separator
         tableView.tableHeaderView = UIView()

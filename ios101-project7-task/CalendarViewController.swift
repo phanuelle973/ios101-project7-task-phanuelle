@@ -19,6 +19,9 @@ class CalendarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Calendar"
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+
 
         // MARK: - Setup the Table View
         // 1. Set table view data source. Needed for standard table view setup:

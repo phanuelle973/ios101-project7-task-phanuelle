@@ -38,6 +38,13 @@ class TaskComposeViewController: UIViewController {
             // 2.
             self.title = "Edit Task"
         }
+        // Set icons for the tab bar items
+        let tasksTabBarItem = UITabBarItem(title: "Tasks", image: UIImage(systemName: "checklist"), tag: 0)
+        self.tabBarItem = tasksTabBarItem
+
+        let calendarTabBarItem = UITabBarItem(title: "Calendar", image: UIImage(systemName: "calendar"), tag: 1)
+        self.tabBarItem = calendarTabBarItem
+
     }
 
     // The function called when the "Done" button is tapped.

@@ -41,6 +41,7 @@ class TaskCell: UITableViewCell {
         self.onCompleteButtonTapped = onCompleteButtonTapped
         // 3.
         update(with: task)
+        task.save()
     }
 
     // Update the UI for the given task
